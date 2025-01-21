@@ -1,0 +1,37 @@
+{
+	"name": "arbitrum-token-bridge",
+	"version": "1.0.0",
+	"description": "Arbitrum Token Bridge",
+	"keywords": [],
+	"author": "count-sum",
+	"license": "ISC",
+	"dependencies": {
+		"@arbitrum/nitro-contracts": "^3.0.0",
+		"@arbitrum/sdk": "^4.0.2",
+		"@openzeppelin/contracts": "^4.8.3",
+		"chai": "4.3.10",
+		"dotenv": "^16.4.7",
+		"hardhat": "^2.22.18"
+	},
+	"devDependencies": {
+		"@nomicfoundation/hardhat-ethers": "^3.0.8",
+		"@nomicfoundation/hardhat-toolbox": "^5.0.0",
+		"@types/chai": "4.3.10",
+		"@types/mocha": "^10.0.10",
+		"@types/node": "^22.10.7",
+		"ethers": "5.7.2",
+		"ts-node": "^10.9.2",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.7.3"
+	},
+	"ts-node": {
+		"compilerOptions": {
+			"module": "commonjs"
+		}
+	},
+	"type": "commonjs",
+	"scripts": {
+		"hardhat": "hardhat",
+		"clean": "rm -rf node_modules pnpm-lock.yaml"
+	}
+}
